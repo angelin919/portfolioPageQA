@@ -3,7 +3,7 @@ const data = {
         fullName: 'Angelina Igunova',
         birthDate: new Date('1990-01-11'),
         city: 'Moscow',
-        position: 'QA Engeener, tester'
+        position: 'QA Engineer, tester'
     },
     contacts:
         [
