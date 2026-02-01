@@ -10,15 +10,15 @@ const data = {
             {
                 type: 'phone' as const,
                 contact: '@Angelina_sono',
-                img: '../public/image/telegramm.png'
+                img: './public/image/telegramm.png'
             }, {
                 type: 'email' as const,
                 contact: 'igunova90@mail.ru',
-                img: '../public/image/email.png'
+                img: './public/image/email.png'
             }, {
                 type: 'github' as const,
                 contact: 'github/angelin919',
-                img: '../public/image/github.png'
+                img: './public/image/github.png'
             }
 
         ],
@@ -28,14 +28,14 @@ const data = {
             title: 'Теория тестирования',
             category: 'hard'as const,
             description: 'Понимание жизненного цикла ПО (SDLC) и тестирования (STLC), знание видов тестирования (функциональное, регрессионное, дымовое и др.).',
-            img: '../public/image/icons8-тестирование-50.png'
+            img: './public/image/icons8-тестирование-50.png'
         },
         {
             id: '2',
             title: 'Тест-дизайн',
             category: 'hard'as const,
             description: 'Умение составлять тест-кейсы, чек-листы и использовать техники: граничные значения, эквивалентные классы, попарное тестирование.'
-            , img:' ../public/image/icons8-проверено-50.png'
+            , img:' ./public/image/icons8-проверено-50.png'
 
         },
         {
@@ -43,7 +43,7 @@ const data = {
             title: 'Инструменты баг-трекинга',
             category: 'hard'as const,
             description: 'Работа в Jira, Qase, TestRail.'
-            , img: '../public/image/icons8-баг-50-2.png'
+            , img: './public/image/icons8-баг-50-2.png'
 
 
         },
@@ -52,7 +52,7 @@ const data = {
             title: 'Клиент-серверная архитектура',
             category: 'hard'as const,
             description: ' Понимание работы веб-приложений, HTTP-методов, умение пользоваться DevTools в браузере, работа c Collections в Postman, Swagger.'
-            , img: '../public/image/icons8-почтальон-инк.-50-2.png'
+            , img: './public/image/icons8-почтальон-инк.-50-2.png'
 
         },
         {
@@ -60,7 +60,7 @@ const data = {
             title: 'Внимательность к деталям:',
             category: 'soft'as const,
             description: 'Способность заметить малейшее несоответствие требованиям.'
-            , img: '../public/image/icons8-баг-50-4.png'
+            , img: './public/image/icons8-баг-50-4.png'
 
         },
         {
@@ -68,7 +68,7 @@ const data = {
             title: 'Языки программирования',
             category: 'hard'as const,
             description: 'Frontend:Основы HTML, CSS, JavaScript, а также фреймворк React(Next). Backend: PHP, Java' ,
-            img: '../public/image/icons8-программирование-50.png'
+            img: './public/image/icons8-программирование-50.png'
         },
 
     ], educations: [
