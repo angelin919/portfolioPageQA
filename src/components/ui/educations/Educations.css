@@ -1,0 +1,19 @@
+.educations_container {
+    width: 90%;
+}
+
+.education_card {
+    max-width: 350px;
+    padding: 1rem;
+}
+.education_card h3{
+    padding: 0.4rem;
+}
+
+.education_card .year{
+
+  font-family: "Sansation", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  margin: 0.5rem;
+}

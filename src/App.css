@@ -1,0 +1,48 @@
+ul {
+  list-style: none;
+  text-decoration: none;
+}
+
+.containerApp {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  padding: 3rem;
+  min-height: 100vh;
+
+
+}
+
+.section_1 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding-bottom: 5rem;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5rem;
+  z-index: 100;
+  /* border: 1px solid pink; */
+
+
+
+}
+
+/* .section_1 .dark {
+  color: black;
+
+
+}
+
+.header .dark {
+  color: black;
+
+}
+
+.footer .dark {
+  color: black;
+
+} */
+
+

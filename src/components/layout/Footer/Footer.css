@@ -1,0 +1,31 @@
+.footer {
+    display: flex;
+    gap: 1rem;
+    height: 150px;
+    margin-top: auto;
+    /* 3. Прижимаем к низу */
+    border-top: 2px solid white;
+    align-items: center;
+    padding-top: 3.5rem;
+    padding-bottom: 1rem;
+
+
+}
+
+
+.contacts_list li {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    /* font-family: "Sansation", sans-serif; */
+    font-weight: 700;
+    font-style: normal;
+    /* color: rgb(251, 253, 254); */
+    padding: 0.3rem;
+
+
+}
+
+.contacts_list h2 {
+    margin-bottom: 1rem;
+}
