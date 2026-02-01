@@ -1,4 +1,3 @@
-import React from 'react';
 import { useData } from '../../../hooks/useData';
 import './Header.css'
 import ThemeToggle from '../../ui/theme/ThemeToggle';

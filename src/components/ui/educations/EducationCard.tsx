@@ -1,4 +1,3 @@
-import React from 'react';
 import type { Education } from '../../../types/types';
 import './Educations.css'
 

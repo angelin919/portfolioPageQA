@@ -1,4 +1,3 @@
-import React from 'react';
 import Skills from '../components/ui/skills/Skills';
 import Educations from '../components/ui/educations/Educations';
 import '../App.css'
