@@ -1,4 +1,3 @@
-import React from 'react';
 import { useData } from '../../../hooks/useData';
 import type { Education } from '../../../types/types';
 import EducationCard from './EducationCard';
