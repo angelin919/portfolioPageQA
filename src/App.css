@@ -14,6 +14,7 @@ ul {
 }
 
 .section_1 {
+  height: auto;
   margin-top: 2rem;
   margin-bottom: 2rem;
   padding-bottom: 5rem;
@@ -25,24 +26,13 @@ ul {
   z-index: 100;
   /* border: 1px solid pink; */
 
-
-
 }
 
-/* .section_1 .dark {
-  color: black;
+@media screen and (max-width: 768px) {
+  .section_1 {
+    flex-direction: column;
+    margin-bottom: 5%;
 
-
-}
-
-.header .dark {
-  color: black;
+  }
 
 }
-
-.footer .dark {
-  color: black;
-
-} */
-
-

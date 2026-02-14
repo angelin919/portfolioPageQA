@@ -18,11 +18,12 @@
 }
 
 .skill_card {
-    max-width: 300px;
+    max-width: 320px;
+    min-width: 200px;
     padding: 1rem;
     text-align: center;
     align-items: center;
-    flex: 0 0 45%;
+    flex: 1 0 200px;
     background-color: rgba(255, 255, 255, 0.163);
     /* border: 1px solid red; */
     /* box-shadow: 1px 3px 3px 7px rgba(180, 178, 178, 0.24); */
@@ -42,6 +43,7 @@
     transition: color 0.2s ease-in-out;
 
 }
+
 .skill_card h3:hover {
     color: rgb(216, 216, 216);
 
@@ -54,6 +56,32 @@
 
 .skill_description {
     position: absolute;
-    bottom: -20%;
+    bottom: -15%;
 
+}
+
+@media screen and (max-width: 1044px) {
+
+    .skill_card {
+        max-width: 320px;
+    }
+
+    .skill_description {
+        bottom: -12%;
+
+    }
+}
+@media screen and (max-width: 798px) {
+
+    .skill_description {
+        bottom: -15%;
+
+    }
+}
+@media screen and (max-width: 400px) {
+
+    .skill_description {
+        bottom: -18%;
+
+    }
 }

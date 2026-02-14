@@ -4,13 +4,11 @@ import '../App.css'
 
 const PortfolioPage = () => {
     return (
-        <div>
             <div className='section_1'>
                 <Educations />
                 <Skills />
 
             </div>
-        </div>
 
     );
 };

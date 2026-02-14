@@ -2,7 +2,7 @@
     display: flex;
     gap: 1rem;
     height: 150px;
-    margin-top: auto;
+    /* margin-top: auto; */
     /* 3. Прижимаем к низу */
     border-top: 2px solid white;
     align-items: center;
@@ -28,4 +28,15 @@
 
 .contacts_list h2 {
     margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 820px) {
+
+    .footer{
+         height: auto;
+         margin-top: 7rem;
+         padding-top: 1rem;
+    }
+       
+
 }
