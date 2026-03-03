@@ -1,3 +1,19 @@
+**Описание:** Интерактивное одностраничное портфолио для демонстрации навыков тестирования и проектов.
+
+**Технологический стек:**
+- **Frontend:** React + TypeScript
+- **Маршрутизация:** React Router DOM
+- **Сборка:** Vite
+- **Хостинг:** Vercel
+- **Контроль версий:** Git + GitHub
+
+**Особенности реализации:**
+- Типизация компонентов и пропсов на TypeScript
+
+**План улучшений (Roadmap):**
+🔄 **Этап 1:** Адаптация под мобильные устройства 
+🔄 **Этап 2:** Улучшение UX/UI (hover-эффекты, анимации)  
+🔄 **Этап 4:** Оптимизация производительности (lazy loading)  
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
